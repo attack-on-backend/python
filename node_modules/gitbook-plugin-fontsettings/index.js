@@ -3,7 +3,7 @@ module.exports = {
     book: {
         assets: './assets',
         js: [
-            'buttons.js'
+            'fontsettings.js'
         ],
         css: [
             'website.css'
