@@ -1,7 +1,7 @@
 {
     "title": "Python",
     "author": "Lyon, HaoYue",
-    "description": "my notes",
+    "description": "Attack on Python 🐍",
     "extension": null,
     "generator": "site",
     "links": {
@@ -48,7 +48,7 @@
             "url": "https://github.com/attack-on-backend/Python"
         },
         "github-buttons": {
-            "repo": "lyonyang/blogs",
+            "repo": "attack-on-backend/Python",
             "types": [
                 "star"
             ],
