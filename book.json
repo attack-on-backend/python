@@ -37,12 +37,23 @@
         "-lunr",
         "-search",
         "search-plus",
+        "anchor-navigation-ex-toc@0.0.9",
         "editlink",
         "fontsettings",
         "copy-code-button",
-        "lightbox"
+        "lightbox",
+        "favicon"
     ],
     "pluginsConfig": {
+        "favicon": {
+            "shortcut": "assets/images/favicom.jpg",
+            "bookmark": "assets/images/favicom.jpg",
+            "appleTouch": "assets/images/favicom.jpg",
+            "appleTouchMore": {
+                "120x120": "assets/images/favicom.jpg",
+                "180x180": "assets/images/favicom.jpg"
+            }
+        },
         "github": {
             "url": "https://github.com/attack-on-backend/Python"
         },
