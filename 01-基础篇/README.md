@@ -1,5 +1,8 @@
 # Attack on Python 🐍 - 基础篇
 
+
+<extoc></extoc>
+
 ## 前言
 
 基础篇中的内容 , 应对的是 `Python` 的基础语法 , 以及基础数据类型的文章
