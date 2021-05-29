@@ -1,5 +1,8 @@
 #  Attack on Python - 函数篇 🐍
 
+
+<extoc></extoc>
+
 ## 介绍  🍀
 
 该目录下为Python函数篇 , 主要为面向函数编程 , 内容概述如下
