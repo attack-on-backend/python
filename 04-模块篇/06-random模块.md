@@ -1,6 +1,8 @@
 # Python - 标准库之random
 
 
+
+
 <extoc></extoc>
 
 ## 介绍  🍀
