@@ -1,13 +1,18 @@
 #  Attack on Python - 基础篇 🐍
 
+## 前言
 
-<extoc></extoc>
+基础篇中的内容 , 应对的是 `Python` 的基础语法 , 以及基础数据类型的文章
 
-## 介绍   🍀
+在开始之前 , 你可以熟悉一下 `Python` 的语言参考 : [The Python Language Reference](https://docs.python.org/3/reference/index.html)
+
+最好的教程就是官方文档 , 所以阅读官方文档是一个好的学习习惯
+
+## 介绍 
 
 Python基础主要包括基础语句 , 基础数据类型 , 字符编码 , 文件操作等
 
-## 基础语句  🍀
+## 基础语句
 
 - Hello World
 - 变量
@@ -21,7 +26,7 @@ Python基础主要包括基础语句 , 基础数据类型 , 字符编码 , 文�
 - for
 - while
 
-## 基础数据类型  🍀
+## 数据类型
 
 - 数字 , Number
 - 字符串 , String
