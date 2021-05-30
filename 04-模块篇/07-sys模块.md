@@ -1,5 +1,8 @@
 #  Attack on Python - sys模块 🐍
 
+
+<extoc></extoc>
+
 ## 介绍 
 
 `sys`模块为我们提供了对解释器使用或维护的一些变量的访问 , 以及解释器交互的函数 
