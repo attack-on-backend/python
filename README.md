@@ -6,7 +6,7 @@
 
 致力构建一个高质量的后端技术图谱 ![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-这是一个有深度的 `Python` 系列博客 , [在线阅读](https://attack-on-backend.github.io/python/) 体验更流畅哟 
+这是一个有深度的 `Python` 系列博客 , [在线阅读](https://attack-on-backend.github.io/python/) 体验更丝滑哟 
 
 ## 目录 🚀
 
@@ -80,3 +80,4 @@
 ## 关于我  ​​🤩
 
 我是一个热衷于后端技术的程序员 , 拥有四年的 `Python` 开发经验 , 喜欢在开源社区活动 , 很希望能与大家一起交流学习 , 也希望能和大家一起够构建出一个完善的后端技术知识图谱 , 你可以通过 `QQ:547903993` 找到我 , 与我交流 ❤️ 🚀
+
