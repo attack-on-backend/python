@@ -1,53 +1,82 @@
 # Attack on Python 🐍
 
-[![Build Status](https://travis-ci.com/attack-on-backend/Python.svg?branch=master)](https://travis-ci.com/github/attack-on-backend/Python)
+[![Build Status](https://travis-ci.com/attack-on-backend/Python.svg?branch=master)](https://travis-ci.com/github/attack-on-backend/Python) [![lang](https://img.shields.io/badge/lang-python-blue)](https://www.python.org/) [![lang](https://img.shields.io/badge/github-%E4%BB%93%E5%BA%93-%2342b983)](https://github.com/attack-on-backend/python)
 
-## 公告
+## 介绍 🐙
 
-非盈利性质的IT工作者聚集地 , 非诚勿扰 , 可以聊工作 , 聊技术 , 聊生活
+致力构建一个高质量的后端技术图谱 ![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-欢迎各位大佬小白前来交流学习 , 一起走上成神之路 
+这是一个有深度的 `Python` 系列博客 , 欢迎一起学习交流
 
-为了保证美好的交流环境 , 加群请备注来源 , 且加群后一小时不说话者 , 视为打广告等不良人员 , 予以踢出
+## 目录 🚀
 
-如果是小姐姐 , 按群内大佬的喜好 , 会热情的帮忙解答学习教学等等
+* [基础篇](01-基础篇/README.md)
+  * [语言基础](01-基础篇/01-语言基础.md)
+  * [数字](01-基础篇/02-数字.md)
+  * [字符串](01-基础篇/03-字符串.md)
+  * [元组](01-基础篇/04-元组.md)
+  * [列表](01-基础篇/05-列表.md)
+  * [字典](01-基础篇/06-字典.md)
+  * [集合](01-基础篇/07-集合.md)
+  * [字符编码](01-基础篇/08-字符编码.md)
+  * [文件操作](01-基础篇/09-文件操作.md)
+* [函数篇](02-函数篇/README.md)
+  * [函数基础](02-函数篇/01-函数基础.md)
+  * [匿名函数](02-函数篇/02-匿名函数.md)
+  * [函数进阶](02-函数篇/03-函数进阶.md)
+  * [内置函数](02-函数篇/04-内置函数.md)
+  * [迭代器](02-函数篇/05-迭代器.md)
+  * [迭代器和生成器](02-函数篇/05-迭代器和生成器.md)
+  * [生成器](02-函数篇/06-生成器.md)
+  * [递归](02-函数篇/07-递归.md)
+* [对象篇](03-对象篇/README.md)
+  * [面向对象](03-对象篇/01-面向对象.md)
+  * [继承](03-对象篇/02-继承.md)
+  * [多态](03-对象篇/03-多态.md)
+  * [封装](03-对象篇/04-封装.md)
+  * [方法转换](03-对象篇/05-方法转换.md)
+  * [魔术方法](03-对象篇/06-魔术方法.md)
+  * [反射](03-对象篇/07-反射.md)
+  * [异常处理](03-对象篇/08-异常处理.md)
+* [模块篇](04-模块篇/README.md)
+  * [模块](04-模块篇/01-模块.md)
+  * [包](04-模块篇/02-包.md)
+  * [正则表达式](04-模块篇/03-正则表达式.md)
+  * [序列化](04-模块篇/04-序列化.md)
+  * [os模块](04-模块篇/05-os模块.md)
+  * [random模块](04-模块篇/06-random模块.md)
+  * [sys模块](04-模块篇/07-sys模块.md)
+  * [wsgiref模块](04-模块篇/08-wsgiref模块.md)
+* [网络篇](05-网络篇/README.md)
+  * [网络编程](05-网络篇/01-网络编程.md)
+  * [Socket](05-网络篇/02-Socket.md)
+  * [Socket实现QQ聊天](05-网络篇/03-Socket实现QQ聊天.md)
+  * [Socket实现远程执行命令](05-网络篇/04-Socket实现远程执行命令.md)
+  * [粘包](05-网络篇/05-粘包.md)
+  * [Socketserver实现多并发](05-网络篇/06-Socketserver实现多并发.md)
+* [并发篇](06-并发篇/README.md)
+  * [进程与线程](06-并发篇/01-进程与线程.md)
+  * [多线程](06-并发篇/02-多线程.md)
+  * [多进程](06-并发篇/03-多进程.md)
+  * [多进程实例及回调函数](06-并发篇/04-多进程实例及回调函数.md)
+  * [协程](06-并发篇/05-协程.md)
+  * [IO多路复用](06-并发篇/06-IO多路复用.md)
+  * [实现线程池](06-并发篇/07-实现线程池.md)
+* [内存篇](07-内存篇/README.md)
+  * [对象机制](07-内存篇/01-对象机制.md)
+  * [对象的创建](07-内存篇/02-对象的创建.md)
+  * [整数对象](07-内存篇/03-整数对象.md)
+  * [字符串对象](07-内存篇/04-字符串对象.md)
+  * [List对象](07-内存篇/05-List对象.md)
+  * [Dict对象](07-内存篇/06-Dict对象.md)
+  * [Tuple对象](07-内存篇/07-Tuple对象.md)
+  * [垃圾回收](07-内存篇/08-垃圾回收.md)
+  * [元类](07-内存篇/09-元类.md)
+* [番外篇](08-番外篇/README.md)
+  * [PyMySQL](08-番外篇/04-Python - 第三方库之PyMySQL.md)
+  * [MySQLdb](08-番外篇/05-Python - 第三方库之MySQLdb.md)
+  * [SQlAlchemy](08-番外篇/06-Python - 第三方库之SQlAlchemy.md)
 
-**抠抠群: 590092348** , [点我入群](https://jq.qq.com/?_wv=1027&k=PwNwrXiy)
+## 关于我  ​​🤩
 
-
-## 关于我们
-
-一群为成神努力修炼的程序员 
-
-我们的宗旨是 : 要么出众 , 要么出局 
-
-## 学习指南
-
-### 基础
-
-1. Python官方文档教程(https://docs.python.org/3/tutorial/index.html) 
-2. Python学习手册第4版(书, 群文件)
-3. C语言编程网 : http://c.biancheng.net/python/
-4. 菜鸟教程 : https://www.runoob.com/python/python-tutorial.html
-5. 廖雪峰的官方网站 : https://www.liaoxuefeng.com/wiki/1016959663602400
-
-### 进阶
-
-1. Python官方文档语言参考(https://docs.python.org/3/reference/index.html)
-2. 流畅的Python(书, 群文件)
-
-### 高级
-
-高级就没啥推荐了 , 到这个程度靠交流探讨了
-
-### 番外
-
-1. 并行编程 : https://python-parallel-programmning-cookbook.readthedocs.io/zh_CN/latest/index.html
-2. 内置时间复杂度 : https://wiki.python.org/moin/TimeComplexity
-3. realpython : https://realpython.com/
-4. 力扣学习 : https://leetcode-cn.com/leetbook/
-5. 力扣加加 : https://leetcode-solution.cn/
-
-更多学习资料 , 学习方法 , 学习路线 , 水群吹牛逼 , 进群吧 => 抠抠群: 590092348
-
-**博客搭建指南** : [点我🤖](https://lyonyang.github.io/blogs/09-Linux/Git/GitHub%20Pages&Gitbook&Travis%20CI%E6%8C%81%E7%BB%AD%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2.html)
+我是一个热衷于后端技术的程序员 , 拥有四年的 `Python` 开发经验 , 不过之后会转入到 `Golang` 的行列当中 , 比较喜欢在开源社区活动 , 很希望能与大家一起交流学习 , 也希望我能够构建出一个完善的后端技术知识图谱 , 你可以通过 `QQ:547903993` 找到我 , 与我交流 ❤️ 🚀
