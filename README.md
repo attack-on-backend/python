@@ -6,7 +6,7 @@
 
 致力构建一个高质量的后端技术图谱 ![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-这是一个有深度的 `Python` 系列博客 , 欢迎一起学习交流
+这是一个有深度的 `Python` 系列博客 , [在线阅读](https://attack-on-backend.github.io/python/) 体验更流畅哟 
 
 ## 目录 🚀
 
