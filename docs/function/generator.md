@@ -132,4 +132,4 @@ print(g_avg.send(50))
 
 当然在我们工作中更多的是利用生成器来实现惰性计算
 
-**生成器进阶可见 [《生成器》](https://attack-on-backend.github.io/tornado/07-%E7%94%9F%E6%88%90%E5%99%A8.html)** 
+**生成器进阶可见 [《生成器》](https://attack-on-backend.github.io/tornado/#/generator)** 
