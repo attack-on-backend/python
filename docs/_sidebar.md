@@ -81,9 +81,9 @@
 
 * 番外篇
 
-  * [PyMySQL](/expand/object.md)
-  * [MySQLdb](/expand/object-create.md)
-  * [SQLAlchemy](/expand/int.md)
+  * [PyMySQL](/expand/pymysql.md)
+  * [MySQLdb](/expand/mysqldb.md)
+  * [SQLAlchemy](/expand/sqlalchemy.md)
 
 * 电子书
 
